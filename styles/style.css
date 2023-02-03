@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patua One', cursive;
+}
+.container{
+    margin:0 auto;
+    max-width: 1470px;
+    background: red;
+    height: 100vh;
+}
+.backgroundImg{
+    background:linear-gradient(rgba(0, 0, 0, 0.149),rgba(0, 0, 0, 0)),url(../image/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center left;
+
+}
+.navbar{
+    background: rgba(30, 30, 30, 0.533);
+    height: 80px;
+    padding-top: 20px;
+display: flex;
+justify-content: center;
+gap: 35px;
+}
+nav ul li{
+    list-style: none;
+    
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    background-color: rgba(11, 11, 11, 0.527);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Source Serif Pro', serif; */
+    font-weight: 200;
+    font-size: 1.9rem;
+}
+.contactBtn{
+    height: 40px;
+    padding-left:20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border:none;
+    font-weight: 200;
+    font-size: 1.9rem;
+}
+.drowpdown{
+    position: absolute;
+    background: rgba(30, 30, 30, 0.533);
+    padding: 5px;
+    display: none;
+}
+.drowpdown{
+    
+}
+.navbar li:hover .drowpdown{
+
+display: block;
+}
