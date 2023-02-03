@@ -9,7 +9,7 @@
 .container{
     margin:0 auto;
     max-width: 1470px;
-    background: red;
+    /* background: red; */
     height: 100vh;
 }
 .backgroundImg{
