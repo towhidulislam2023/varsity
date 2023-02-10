@@ -6,11 +6,14 @@
     box-sizing: border-box;
     font-family: 'Patua One', cursive;
 }
+.headersec{
+    height: 100vh;
+}
 .container{
     margin:0 auto;
     max-width: 1470px;
     /* background: red; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 .backgroundImg{
     background:linear-gradient(rgba(0, 0, 0, 0.149),rgba(0, 0, 0, 0)),url(../image/bg.jpg);
@@ -36,7 +39,7 @@ nav ul li{
     border-radius: 5px;
 }
 nav ul li:hover{
-    background-color: rgba(11, 11, 11, 0.527);
+    background-color: rgba(89, 120, 206, 0.527);
 }
 nav ul li a{
     text-decoration: none;
@@ -45,14 +48,19 @@ nav ul li a{
     font-weight: 200;
     font-size: 1.9rem;
 }
-.contactBtn{
+.btn-contact{
     height: 40px;
     padding-left:20px;
     padding-right: 20px;
+}
+.contactBtn{
+
     border-radius: 5px;
     border:none;
     font-weight: 200;
     font-size: 1.9rem;
+   background-color: rgb(24, 91, 216);
+   color: white;
 }
 .drowpdown{
     position: absolute;
@@ -66,4 +74,86 @@ nav ul li a{
 .navbar li:hover .drowpdown{
 
 display: block;
+}
+.n-Section{
+    margin-top: 80px;
+}
+
+.secondSection-items{
+    margin-top: 50px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.primary-text{
+    text-align: center;
+    font-size: 2.5rem;
+   margin-bottom: 5px;
+    color: rgb(20, 20, 156);
+}
+
+.div-for-image{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.section-Image{
+    /* height:500px; width: 450px; */
+    /* width: 50%; */
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+   
+}
+.section-Image-m{
+    width: 100%;
+    border-radius: 15px;
+    margin-right:50px;
+
+}
+.section-Image-g{
+    width:90%;
+    border-radius: 15px;
+    margin-right:50px;
+}
+.sectionElement{
+    width: 50%;
+    
+}
+.sectionTitle{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(24, 91, 216);
+}
+.srcttionDescripction{
+    margin-top: 30px;
+    width: 80%;
+}
+.btn-primary{
+    margin-top: 30px;
+    padding: 5px 10px;
+    font-size: 1.2rem !important;
+    
+}
+.footersec{
+    padding-top:20px;
+    margin-top: 60px;
+    background: rgba(177, 181, 212, 0.227);
+}
+.all-fotter-area{
+    display: flex;
+    justify-content: space-around;
+}
+.usefulLinks{
+    display: flex;
+    /* align-items: center; */
+    gap: 45px;
+}
+.usefulLinks ul li{
+    margin-bottom: 10px;
+    
+}
+.usefulLinks ul li a{
+    color: black;
 }
