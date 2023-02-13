@@ -44,7 +44,6 @@ nav ul li:hover{
 nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    /* font-family: 'Source Serif Pro', serif; */
     font-weight: 200;
     font-size: 1.9rem;
 }
@@ -77,6 +76,7 @@ display: block;
 }
 .n-Section{
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .secondSection-items{
@@ -99,18 +99,10 @@ display: block;
     justify-content:center;
 }
 .section-Image{
-    /* height:500px; width: 450px; */
-    /* width: 50%; */
     height: 500px;
     width: 600px;
     border-radius: 15px;
    
-}
-.section-Image-m{
-    width: 100%;
-    border-radius: 15px;
-    margin-right:50px;
-
 }
 .section-Image-g{
     width:90%;
@@ -147,7 +139,6 @@ display: block;
 }
 .usefulLinks{
     display: flex;
-    /* align-items: center; */
     gap: 45px;
 }
 .usefulLinks ul li{
@@ -156,4 +147,31 @@ display: block;
 }
 .usefulLinks ul li a{
     color: black;
+}
+.contactfrom{
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(177, 181, 212, 0.227);
+    padding: 60px;
+}
+.inputFild{
+    display: block;
+    width:90%;
+    margin-bottom: 30px;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding:2px 0 0 20px;
+
+}
+.CommentFild{
+    display: block;
+    width: 90%;
+    margin-bottom: 30px;
+    /* height: 56px; */
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding:10px 0 0 20px;
 }
